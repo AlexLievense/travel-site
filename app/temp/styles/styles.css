@@ -613,8 +613,15 @@ a {
   }
 
 .page-section {
-  padding: 1.2rem 0;
+  padding: 1.2rem 0;  
 }
+
+@media (min-width: 800px) {
+
+.page-section {
+    padding: 4.5rem 0  
+}
+  }
 
 .page-section__blue {
     background-color: #2f5572;
@@ -653,13 +660,6 @@ a {
 .page-section__no-b-padding-until-large {
       padding-bottom:  4.5rem
   }
-  }
-
-@media (min-width: 800px) {
-
-.page-section {
-    padding: 4.5rem 0
-}
   }
 
 .headline {
